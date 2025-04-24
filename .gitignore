@@ -1,0 +1,52 @@
+# Ignore everything in the root except wp-content and .gitignore
+/*
+!.gitignore
+!wp-content/
+
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+readme.html
+license.txt
+xmlrpc.php
+index.php
+
+# Ignore configuration and sensitive files
+wp-config.php
+.htaccess
+web.config
+
+# Ignore database dumps and backups
+*.sql
+*.sql.gz
+*.zip
+*.tar.gz
+*.bak
+
+# Ignore uploads (optional - can be versioned if needed)
+wp-content/uploads/
+
+# Ignore all plugins except custom one(s)
+wp-content/plugins/*
+!wp-content/plugins/your-custom-plugin/
+
+# Ignore all themes except custom one(s)
+wp-content/themes/*
+!wp-content/themes/your-custom-theme/
+
+# Node, Composer, and vendor dependencies
+node_modules/
+vendor/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# IDEs
+.idea/
+.vscode/
