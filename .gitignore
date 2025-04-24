@@ -2,11 +2,11 @@
 /*
 !.gitignore
 !wp-content/
+!README.md
 
 # Ignore WordPress core files
 wp-admin/
 wp-includes/
-readme.html
 license.txt
 xmlrpc.php
 index.php
